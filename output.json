@@ -1,0 +1,69 @@
+{
+    "name": "15 Day Cleanse",
+    "description": "15 Day Cleanse",
+    "slug": "15-day-cleanse",
+    "servingSize": "Serving Size: 2 Capsules",
+    "ingredients": [
+        {
+            "ingredient": "Senna Leaf (20% Extract)",
+            "amount": "285 mg",
+            "dailyValue": "*"
+        },
+        {
+            "ingredient": "Cascara Sagrada Bark (10% Extract)",
+            "amount": "300 mg",
+            "dailyValue": "*"
+        },
+        {
+            "ingredient": "Psyllium Husk Powder",
+            "amount": "300 mg",
+            "dailyValue": "*"
+        },
+        {
+            "ingredient": "Flaxseed Powder",
+            "amount": "100 mg",
+            "dailyValue": "*"
+        },
+        {
+            "ingredient": "Aloe Vera Gel (Powder / 200:1 Concentrate) (leaf)",
+            "amount": "80 mg",
+            "dailyValue": "*"
+        },
+        {
+            "ingredient": "Lactobacillus acidophilus",
+            "amount": "50 mg",
+            "dailyValue": "*"
+        },
+        {
+            "ingredient": "Licorice Root (10% extract)",
+            "amount": "50 mg",
+            "dailyValue": "*"
+        },
+        {
+            "ingredient": "Medium Chain Triglycerides Oil",
+            "amount": "14 mg",
+            "dailyValue": "*"
+        }
+    ],
+    "suggestedUse": "FOR OCCASIONAL USE ONLY: 1 to 2 capsules taken at bedtime with 8 ounces of water or as directed by a healthcare professional.\nSHORT-TERM CLEANSING PROGRAM: 1 to 2 capsules taken at bedtime with 8 ounces of water for up to 15 days or as directed by a healthcare professional. Do not repeat cleansing program for at least 6 to 8 weeks.",
+    "caution": "",
+    "Categories": [
+        {
+            "name": "Colon Cleansers",
+            "slug": "colon-cleansers"
+        },
+        {
+            "name": "Top Sellers",
+            "slug": "top-sellers"
+        }
+    ],
+    "otherIngredients": "Gelatin (bovine), rice powder, vegetable magnesium stearate, and silicon dioxide.",
+    "Sizes": [
+        {
+            "size": "30 Capsules",
+            "sku": "SVT2187",
+            "type": "Capsules",
+            "vendorSku": "3965"
+        }
+    ]
+}

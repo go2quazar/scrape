@@ -1,0 +1,67 @@
+mutation(
+    $name: String!,
+    $slug: String!,
+    $description: String,
+    $servingSize: String!,
+    $suggestedUse: SuggestedUse!,
+    $caution: String,
+    $otherIngredients: String,
+    $ingredients: [GroupingredientInput!] {
+    $ingredient: String!,
+    $amount: String!,
+    $dailyValue: String!,
+    },
+    $Categories: [GroupcategoryInput!] {
+    $name: String,
+    $slug: String,
+    },
+    $Sizes: [GroupsizeInput!] {
+    $size: String!,
+    $type: ENUM_GROUPSIZE_TYPE!,
+    $sku: String!,
+    $vendorSku: String!,
+    }) {
+createProduct
+(
+    name: $name,
+    slug: $slug,
+    description: $description,
+    servingSize: $servingSize,
+    suggestedUse: $suggestedUse,
+    caution: $caution,
+    otherIngredients: $otherIngredients,
+    ingredients: $ingredients,
+    ingredient: $ingredient,
+    amount: $amount,
+    dailyValue: $dailyValue,
+    Categories: $Categories,
+    name: $name,
+    slug: $slug,
+    Sizes: $Sizes,
+    size: $size,
+    type: $type,
+    sku: $sku,
+    vendorSku: $vendorSku,
+)
+     {
+        name,
+        slug,
+        description,
+        servingSize,
+        suggestedUse,
+        caution,
+        otherIngredients,
+        ingredients,
+        ingredient,
+        amount,
+        dailyValue,
+        Categories,
+        name,
+        slug,
+        Sizes,
+        size,
+        type,
+        sku,
+        vendorSku
+    }
+}
